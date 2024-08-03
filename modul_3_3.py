@@ -40,5 +40,5 @@ print_params (c = [1,2,3])
 print_params (*values_list)
 print_params (**values_dict)
 
-values_list_2 = [123, True]
-print_params (*values_list_2)
+values_list_2 = [54.32, 'Строка']
+print_params (*values_list_2, 42)
