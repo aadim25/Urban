@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="modul_3_3.py">
-      <change afterPath="$PROJECT_DIR$/modul_3_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modul_3_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modul_3_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practica_po_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/repka.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.py" beforeDir="false" afterPath="$PROJECT_DIR$/mail.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul_3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul_3_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repka.txt" beforeDir="false" afterPath="$PROJECT_DIR$/repka.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
