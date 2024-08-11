@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="modul_3_3.py&#10;Messenge">
+      <change afterPath="$PROJECT_DIR$/modul_3_hard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calc_Trening.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calc_Trening.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modul_2_hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul_2_hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +45,9 @@
     "Python.modul_3_3.executor": "Run",
     "Python.modul_3_4.executor": "Run",
     "Python.modul_3_5.executor": "Run",
+    "Python.modul_3_hard.executor": "Debug",
     "Python.practica_po_function.executor": "Run",
+    "Python.Хлам.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -54,7 +59,29 @@
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.modul_2_hard">
+  <component name="RunManager" selected="Python.modul_3_hard">
+    <configuration name="Хлам" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Хлам.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Calc_Trening" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
@@ -99,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modul_3_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="modul_3_hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,29 +139,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_3_4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="modul_3_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UrbanProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_3_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_3_hard.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.modul_2_hard" />
+        <item itemvalue="Python.modul_3_hard" />
+        <item itemvalue="Python.Хлам" />
         <item itemvalue="Python.Calc_Trening" />
+        <item itemvalue="Python.modul_2_hard" />
         <item itemvalue="Python.practica_po_function" />
-        <item itemvalue="Python.modul_3_5" />
-        <item itemvalue="Python.modul_3_4" />
       </list>
     </recent_temporary>
   </component>
@@ -223,12 +228,41 @@
       <option name="project" value="LOCAL" />
       <updated>1723071714350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modul_3_3.py&#10;Messenge">
+      <option name="closed" value="true" />
+      <created>1723072463390</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723072463390</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modul_3_3.py" />
     <MESSAGE value="modul_3_3.py&#10;Messenge" />
     <option name="LAST_COMMIT_MESSAGE" value="modul_3_3.py&#10;Messenge" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="summa" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
