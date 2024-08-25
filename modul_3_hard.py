@@ -61,6 +61,7 @@ print(result)
 summa=0
 def type_number(number):
     if type(number) == str:
+<<<<<<< HEAD
         # print (type(number))
         return len(number)
     elif type(number) == (int or float):
@@ -116,3 +117,47 @@ for key, value in data_structure.items():
 result = calculate_structure_sum(data_structure)
 print (result)
 
+=======
+        if len(number)==0:
+            return 0
+        return len(number)
+    elif type(number) == (int or float):
+        return number
+
+def calculate_structure_sum(data_structure):
+    global summa
+    while not isinstance (data_structure, int | float | str):
+        if type(data_structure) == list:
+            for i in data_structure:
+                calculate_structure_sum(i)
+            return summa
+        elif type(data_structure) == set:
+            for i in (data_structure):
+                calculate_structure_sum (i)
+            return summa
+        elif type(data_structure) == tuple:
+            for i in data_structure:
+                calculate_structure_sum(i)
+            return summa
+        elif type(data_structure) == dict:
+            for key, value in data_structure.items():
+                calculate_structure_sum(key)
+                calculate_structure_sum(value)
+            return summa
+    else:
+        summa += type_number (data_structure)
+        return summa
+
+
+
+data_structure = [
+[1, 2, 3],
+{'a': 4, 'b': 5},
+(6, {'cube': 7, 'drum': 8}),
+"Hello",
+((), [{(2, 'Urban', ('Urban2', 35))}])
+]
+
+result = calculate_structure_sum(data_structure)
+print (result)
+>>>>>>> origin/master
