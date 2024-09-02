@@ -13,15 +13,19 @@
 class House:
     houses_history = []
     __instance = None
-    def __new__(cls, *args):
-        global houses_history
-        # print (args)
-        if cls.__instance is None:
-            cls.__instance = super().__new__(cls)
-        House.houses_history.append(args[0])
-            # print (len(args))
-            # print (len(House.houses_history))
-        return cls.__instance
+    def __new__(cls, *args, **kwargs):
+        obj = object.__new__(cls)
+        cls.houses_history.append(args[0])
+        return obj
+    # расположенный далее комментарий был написан мной по конспектам,
+    # но удалять не стал, использую как подсказку
+    #     # print (args)
+    #     if cls.__instance is None:
+    #         cls.__instance = super().__new__(cls)
+    #     House.houses_history.append(args[0])
+    #         # print (len(args))
+    #         # print (len(House.houses_history))
+    #     return cls.__instance
     def __init__(self, name, number_of_floors):
         self.name = name
         self.number_of_floors = number_of_floors
