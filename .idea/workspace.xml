@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="modul_3_3.py&#10;Messenge">
-      <change afterPath="$PROJECT_DIR$/modul_3_hard.py" afterDir="false" />
+    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="Urban Modul 5">
+      <change afterPath="$PROJECT_DIR$/Class_metod_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_attrib.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classandobject2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module_5_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Обучение по книгам/Дауни.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calc_Trening.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calc_Trening.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modul_2_hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul_2_hard.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/../.." source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -40,27 +61,61 @@
   "keyToString": {
     "Python.3modul_name_param 2.executor": "Run",
     "Python.Calc_Trening.executor": "Run",
+    "Python.Class_metod_new.executor": "Run",
+    "Python.class_attrib.executor": "Run",
+    "Python.classandobject2.executor": "Run",
+    "Python.fake_math.executor": "Run",
     "Python.mail.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.modul1 (1).executor": "Run",
+    "Python.modul1.executor": "Run",
+    "Python.modul2 (1).executor": "Run",
+    "Python.modul2.executor": "Run",
     "Python.modul_2_hard.executor": "Run",
     "Python.modul_3_3.executor": "Run",
     "Python.modul_3_4.executor": "Run",
     "Python.modul_3_5.executor": "Run",
-    "Python.modul_3_hard.executor": "Debug",
+    "Python.modul_3_hard.executor": "Run",
+    "Python.module1 (1).executor": "Run",
+    "Python.module1.executor": "Run",
+    "Python.module2 (1).executor": "Run",
+    "Python.module2.executor": "Run",
+    "Python.module3.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_4_2.executor": "Run",
+    "Python.module_5_1.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.namespaces.executor": "Run",
     "Python.practica_po_function.executor": "Run",
+    "Python.sortfunc.executor": "Debug",
+    "Python.true_math.executor": "Run",
+    "Python.Дауни.executor": "Run",
     "Python.Хлам.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "H:/User/aadim/GitHub/python-environment-demo/UrbanProject"
+    "last_opened_file_path": "H:/User/aadim/GitHub/python-environment-demo/UrbanProject",
+    "settings.editor.selected.configurable": "settings.sync"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\package1\package2\package3" />
+      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\package1" />
+      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\modules" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.modul_3_hard">
-    <configuration name="Хлам" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.module_5_4">
+    <configuration name="Дауни" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -69,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Обучение по книгам" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Хлам.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Обучение по книгам/Дауни.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Calc_Trening" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Class_metod_new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +150,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Calc_Trening.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_metod_new.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modul_2_hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="class_attrib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,7 +172,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_2_hard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_attrib.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="modul_3_hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="classandobject2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -139,7 +194,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_3_hard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classandobject2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +203,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="practica_po_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module_5_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -161,7 +216,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica_po_function.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_5_4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.modul_3_hard" />
-        <item itemvalue="Python.Хлам" />
-        <item itemvalue="Python.Calc_Trening" />
-        <item itemvalue="Python.modul_2_hard" />
-        <item itemvalue="Python.practica_po_function" />
+        <item itemvalue="Python.module_5_4" />
+        <item itemvalue="Python.class_attrib" />
+        <item itemvalue="Python.Class_metod_new" />
+        <item itemvalue="Python.Дауни" />
+        <item itemvalue="Python.classandobject2" />
       </list>
     </recent_temporary>
   </component>
@@ -236,25 +291,76 @@
       <option name="project" value="LOCAL" />
       <updated>1723072463390</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Urban Modul 3">
+      <option name="closed" value="true" />
+      <created>1723337829579</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723337829579</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1724590549802</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724590549802</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1724898834382</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724898834468</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1724987085047</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724987085191</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="modul_3_3.py" />
     <MESSAGE value="modul_3_3.py&#10;Messenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="modul_3_3.py&#10;Messenge" />
+    <MESSAGE value="Urban Modul 3" />
+    <MESSAGE value="Urban Modul 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Urban Modul 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>
-          <line>115</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/module_5_3.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>
-          <line>84</line>
+          <url>file://$PROJECT_DIR$/classandobject2.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Class_metod_new.py</url>
+          <line>33</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
