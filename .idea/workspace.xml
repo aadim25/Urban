@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="">
+    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="Urban Modul 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module_5_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/module_5_4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Обучение по книгам/Дауни.py" beforeDir="false" afterPath="$PROJECT_DIR$/Обучение по книгам/Дауни.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,53 +53,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.3modul_name_param 2.executor": "Run",
-    "Python.Calc_Trening.executor": "Run",
-    "Python.Class_metod_new.executor": "Run",
-    "Python.class_attrib.executor": "Run",
-    "Python.classandobject2.executor": "Run",
-    "Python.fake_math.executor": "Run",
-    "Python.mail.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.modul1 (1).executor": "Run",
-    "Python.modul1.executor": "Run",
-    "Python.modul2 (1).executor": "Run",
-    "Python.modul2.executor": "Run",
-    "Python.modul_2_hard.executor": "Run",
-    "Python.modul_3_3.executor": "Run",
-    "Python.modul_3_4.executor": "Run",
-    "Python.modul_3_5.executor": "Run",
-    "Python.modul_3_hard.executor": "Run",
-    "Python.module1 (1).executor": "Run",
-    "Python.module1.executor": "Run",
-    "Python.module2 (1).executor": "Run",
-    "Python.module2.executor": "Run",
-    "Python.module3.executor": "Run",
-    "Python.module_4_1.executor": "Run",
-    "Python.module_4_2.executor": "Run",
-    "Python.module_5_1.executor": "Run",
-    "Python.module_5_3.executor": "Run",
-    "Python.module_5_4.executor": "Run",
-    "Python.namespaces.executor": "Run",
-    "Python.practica_po_function.executor": "Run",
-    "Python.sortfunc.executor": "Debug",
-    "Python.true_math.executor": "Run",
-    "Python.Дауни.executor": "Run",
-    "Python.Хлам.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "H:/User/aadim/GitHub/python-environment-demo/UrbanProject",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.3modul_name_param 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Calc_Trening.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class_metod_new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practica_registraciya.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Practicka_N2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_attrib.executor&quot;: &quot;Run&quot;,
+    &quot;Python.classandobject2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fake_math.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mail.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul_2_hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul_3_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul_3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul_3_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modul_3_hard.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.module1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.module2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_4_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_5_4v2.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.mypolygon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.namespaces.executor&quot;: &quot;Run&quot;,
+    &quot;Python.practica_po_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sortfunc.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.true_math.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Дауни.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Область Видимости.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Повтор по видео от 17-08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Хлам.executor&quot;: &quot;Run&quot;,
+    &quot;Python.удалить область.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;H:/User/aadim/GitHub/python-environment-demo/UrbanProject&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject" />
@@ -111,7 +117,73 @@
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.module_5_4">
+  <component name="RunManager" selected="Python.Повтор по видео от 17-08">
+    <configuration name="Повтор по видео от 17-08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Повторы по видео Урбан" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Область Видимости" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Рабочий мусор" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Рабочий мусор/Область Видимости.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="удалить область" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Рабочий мусор" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Рабочий мусор/удалить область.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Дауни" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
@@ -134,7 +206,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Class_metod_new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mypolygon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -143,77 +215,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Обучение по книгам/Дауни" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_metod_new.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="class_attrib" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UrbanProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/class_attrib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="classandobject2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UrbanProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classandobject2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="module_5_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UrbanProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_5_4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Обучение по книгам/Дауни/mypolygon.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +230,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.module_5_4" />
-        <item itemvalue="Python.class_attrib" />
-        <item itemvalue="Python.Class_metod_new" />
+        <item itemvalue="Python.Повтор по видео от 17-08" />
+        <item itemvalue="Python.удалить область" />
+        <item itemvalue="Python.mypolygon" />
         <item itemvalue="Python.Дауни" />
-        <item itemvalue="Python.classandobject2" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +333,39 @@
       <option name="project" value="LOCAL" />
       <updated>1725249712638</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1725290350025</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725290350311</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1725290555578</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725290555578</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Урбан Повтор по видео">
+      <option name="closed" value="true" />
+      <created>1726025432407</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726025432407</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1726042346335</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1726042346335</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +384,7 @@
     <MESSAGE value="modul_3_3.py" />
     <MESSAGE value="modul_3_3.py&#10;Messenge" />
     <MESSAGE value="Urban Modul 3" />
+    <MESSAGE value="Урбан Повтор по видео" />
     <MESSAGE value="Urban Modul 5" />
     <option name="LAST_COMMIT_MESSAGE" value="Urban Modul 5" />
   </component>
@@ -367,6 +405,16 @@
           <url>file://$PROJECT_DIR$/Class_metod_new.py</url>
           <line>33</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Practica_registraciya.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Practica_registraciya.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
