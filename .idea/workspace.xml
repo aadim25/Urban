@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="Urban Modul 5">
+    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module5hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5hard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -53,62 +54,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.3modul_name_param 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Calc_Trening.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Class_metod_new.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Practica_registraciya.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Practicka_N2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.class_attrib.executor&quot;: &quot;Run&quot;,
-    &quot;Python.classandobject2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fake_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mail.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul_2_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul_3_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul_3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul_3_5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.modul_3_hard.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module1 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.module1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module2 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.module2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_4_2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.module_5_4v2.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.mypolygon.executor&quot;: &quot;Run&quot;,
-    &quot;Python.namespaces.executor&quot;: &quot;Run&quot;,
-    &quot;Python.practica_po_function.executor&quot;: &quot;Run&quot;,
-    &quot;Python.sortfunc.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.true_math.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Дауни.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Область Видимости.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Повтор по видео от 17-08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Хлам.executor&quot;: &quot;Run&quot;,
-    &quot;Python.удалить область.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;H:/User/aadim/GitHub/python-environment-demo/UrbanProject&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.3modul_name_param 2.executor": "Run",
+    "Python.Calc_Trening.executor": "Run",
+    "Python.Class_metod_new.executor": "Run",
+    "Python.Practica_registraciya.executor": "Run",
+    "Python.Practicka_N2.executor": "Run",
+    "Python.Pythonim.executor": "Run",
+    "Python.class_attrib.executor": "Run",
+    "Python.classandobject2.executor": "Run",
+    "Python.fake_math.executor": "Run",
+    "Python.mail.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.modul1 (1).executor": "Run",
+    "Python.modul1.executor": "Run",
+    "Python.modul2 (1).executor": "Run",
+    "Python.modul2.executor": "Run",
+    "Python.modul_2_hard.executor": "Run",
+    "Python.modul_3_3.executor": "Run",
+    "Python.modul_3_4.executor": "Run",
+    "Python.modul_3_5.executor": "Run",
+    "Python.modul_3_hard.executor": "Run",
+    "Python.module1 (1).executor": "Run",
+    "Python.module1.executor": "Run",
+    "Python.module2 (1).executor": "Run",
+    "Python.module2.executor": "Run",
+    "Python.module3.executor": "Run",
+    "Python.module_4_1.executor": "Run",
+    "Python.module_4_2.executor": "Run",
+    "Python.module_5_1.executor": "Run",
+    "Python.module_5_3.executor": "Run",
+    "Python.module_5_4.executor": "Run",
+    "Python.module_5_4v2.executor": "Debug",
+    "Python.mypolygon.executor": "Run",
+    "Python.namespaces.executor": "Run",
+    "Python.practica_po_function.executor": "Run",
+    "Python.sortfunc.executor": "Debug",
+    "Python.true_math.executor": "Run",
+    "Python.Дауни.executor": "Run",
+    "Python.Область Видимости.executor": "Run",
+    "Python.Повтор по видео от 10-08.executor": "Run",
+    "Python.Повтор по видео от 17-08.2.executor": "Debug",
+    "Python.Повтор по видео от 17-08.executor": "Run",
+    "Python.Хлам.executor": "Run",
+    "Python.удалить область.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "H:/User/aadim/GitHub/python-environment-demo/UrbanProject/Повторы по видео Урбан",
+    "settings.editor.selected.configurable": "settings.sync"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\Повторы по видео Урбан" />
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -117,7 +122,29 @@
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Повтор по видео от 17-08">
+  <component name="RunManager" selected="Python.Повтор по видео от 10-08">
+    <configuration name="Повтор по видео от 10-08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Повторы по видео Урбан" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 10-08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Повтор по видео от 17-08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
@@ -162,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="удалить область" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Pythonim" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,11 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Рабочий мусор" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Обучение по книгам/Интернет источники" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Рабочий мусор/удалить область.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Обучение по книгам/Интернет источники/Pythonim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Дауни" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Повтор_по_видео_от_17-08.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,11 +220,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Обучение по книгам" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Повторы по видео Урбан" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Обучение по книгам/Дауни.py" />
+      <option name="SCRIPT_NAME" value="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\Повторы по видео Урбан\Повтор_по_видео_от_17-08.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,10 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Повтор по видео от 10-08" />
+        <item itemvalue="Python.Pythonim" />
+        <item itemvalue="Python.Повтор_по_видео_от_17-08.2" />
         <item itemvalue="Python.Повтор по видео от 17-08" />
-        <item itemvalue="Python.удалить область" />
         <item itemvalue="Python.mypolygon" />
-        <item itemvalue="Python.Дауни" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +393,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726042346335</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1726412863960</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726412863961</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1726413862296</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1726413862297</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,7 +417,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -415,6 +465,11 @@
           <url>file://$PROJECT_DIR$/Practica_registraciya.py</url>
           <line>39</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Повторы по видео Урбан/Повтор_по_видео_от_17-08.2.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
