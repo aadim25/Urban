@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module5hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/module5hard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор по видео от 17-08.2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор_по_видео_от_17-08.2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Повторы по видео Урбан/Повтор_по_видео_от_17-08.2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +96,7 @@
     "Python.Повтор по видео от 10-08.executor": "Run",
     "Python.Повтор по видео от 17-08.2.executor": "Debug",
     "Python.Повтор по видео от 17-08.executor": "Run",
+    "Python.Повтор_по_видео_от_17-08.2 (1).executor": "Run",
     "Python.Хлам.executor": "Run",
     "Python.удалить область.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -122,7 +122,7 @@
       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\modules" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Повтор по видео от 10-08">
+  <component name="RunManager" selected="Python.Повтор_по_видео_от_17-08.2 (1)">
     <configuration name="Повтор по видео от 10-08" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
@@ -167,28 +167,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Область Видимости" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UrbanProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Рабочий мусор" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Рабочий мусор/Область Видимости.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Pythonim" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanProject" />
       <option name="ENV_FILES" value="" />
@@ -203,6 +181,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Обучение по книгам/Интернет источники/Pythonim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Повтор_по_видео_от_17-08.2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Повторы по видео Урбан" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Повторы по видео Урбан/Повтор_по_видео_от_17-08.2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -233,35 +233,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mypolygon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="UrbanProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Обучение по книгам/Дауни" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Обучение по книгам/Дауни/mypolygon.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Повтор_по_видео_от_17-08.2 (1)" />
         <item itemvalue="Python.Повтор по видео от 10-08" />
         <item itemvalue="Python.Pythonim" />
         <item itemvalue="Python.Повтор_по_видео_от_17-08.2" />
         <item itemvalue="Python.Повтор по видео от 17-08" />
-        <item itemvalue="Python.mypolygon" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +387,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726413862297</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1726617656213</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726617656214</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1726617762360</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1726617762360</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Urban Modul 5">
+      <option name="closed" value="true" />
+      <created>1726617996604</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1726617996604</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,11 +467,6 @@
           <url>file://$PROJECT_DIR$/Practica_registraciya.py</url>
           <line>39</line>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Повторы по видео Урбан/Повтор_по_видео_от_17-08.2.py</url>
-          <line>63</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

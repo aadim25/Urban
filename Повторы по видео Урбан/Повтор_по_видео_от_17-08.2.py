@@ -3,9 +3,11 @@
 # Наследование
 # Абстракция
 class Employee:
-    def __init__(self, name, position):
+    def __init__(self, name, position, salary):
         self.name = name
         self.position = position
+        self.salary = salary
+        # super().__init__('Россия')
 
     def get_info(self):
         print('3')
@@ -35,7 +37,6 @@ class Manager(Employee):
 
 class RemoteWorker:
     def __init__(self, location):
-
         self.location = location
 
     def get_location(self):
@@ -44,7 +45,7 @@ class RemoteWorker:
 
 class RemoteDeveloper(Developer, RemoteWorker):
     def __init__(self, name, position, programming_language, location):
-        # super().__init__(name, position, programming_language, location)
+        super(RemoteDeveloper, self).__init__(name, position, programming_language)
         # Developer.__init__(self, name, position, programming_language)
         # RemoteWorker.__init__(self, location)
         super(Employee, self).__init__(location)
@@ -54,12 +55,14 @@ class RemoteDeveloper(Developer, RemoteWorker):
         location_info = self.get_location()
         return f'{dev_info}, {location_info}'
 
-# employee = Employee('Алиса', 'Менеджер')
+employee = Employee('Алиса', 'Менеджер', 100_000)
+employee.salary = 1_000_000
+print(employee.salary)
 # developer = Developer('Саша', 'Разработчик','Python')
 # manager = Manager('Алиса','Менеджер', 20)
 remote_developer = RemoteDeveloper('Давид','Сеньёр разработчик','Python','Латинская Америка')
 # print(employee.get_info())
 # print(manager.get_info())
 # print(developer.get_info())
-print(remote_developer.get_info())
+# print(remote_developer.get_info())
 # print(RemoteDeveloper.__mro__)
