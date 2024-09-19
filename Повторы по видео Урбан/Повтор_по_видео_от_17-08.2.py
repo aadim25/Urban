@@ -60,7 +60,7 @@ employee.salary = 1_000_000
 print(employee.salary)
 # developer = Developer('Саша', 'Разработчик','Python')
 # manager = Manager('Алиса','Менеджер', 20)
-remote_developer = RemoteDeveloper('Давид','Сеньёр разработчик','Python','Латинская Америка')
+# remote_developer = RemoteDeveloper('Давид','Сеньёр разработчик','Python','Латинская Америка')
 # print(employee.get_info())
 # print(manager.get_info())
 # print(developer.get_info())
