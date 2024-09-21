@@ -1,0 +1,602 @@
+Index: module3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module3.py b/module3.py
+new file mode 100644
+--- /dev/null	(date 1724254740848)
++++ b/module3.py	(date 1724254740848)
+@@ -0,0 +1,7 @@
++# from modules.module2 import some_func
++# print (some_func())
++# from modules import module2
++import modules
++print (modules)
++# modules.module2
++d = 10
+Index: modules/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/modules/__init__.py b/modules/__init__.py
+new file mode 100644
+--- /dev/null	(date 1724025315378)
++++ b/modules/__init__.py	(date 1724025315378)
+@@ -0,0 +1,1 @@
++print ("Init")
+\ No newline at end of file
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+new file mode 100644
+--- /dev/null	(date 1724167728672)
++++ b/main.py	(date 1724167728672)
+@@ -0,0 +1,6 @@
++from package1.package2.package3.module2 import good_word
++
++if __name__ =='__main__':
++    good_word('Урбан')
++
++#
+\ No newline at end of file
+Index: namespaces.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/namespaces.py b/namespaces.py
+new file mode 100644
+--- /dev/null	(date 1724370827819)
++++ b/namespaces.py	(date 1724370827819)
+@@ -0,0 +1,25 @@
++# import this
++import math
++# def print (*args):
++#     return 'Ok'
++from module3 import *
++
++def sqeare (x):
++    # d = x ** 2
++    def even(x):
++        # d = x * 2
++        if d % 2 == 0:
++            print('Четное')
++        else:
++            print('Нечетное')
++    # print (locals())
++    even(x)
++    return d
++
++# d = 5
++b = sqeare(4)
++print (d)
++print (b)
++# print (globals())
++
++print (dir(modules))
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"7ae67ffd-5f5f-4efe-97a5-a63c319e950b\" name=\"Changes\" comment=\"modul_3_3.py&#10;Messenge\">\r\n      <change afterPath=\"$PROJECT_DIR$/modul_3_hard.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Calc_Trening.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Calc_Trening.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/modul_2_hard.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/modul_2_hard.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 4\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2k8GORFj2BA9jRkicYKmZaOp3bq\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.3modul_name_param 2.executor\": \"Run\",\r\n    \"Python.Calc_Trening.executor\": \"Run\",\r\n    \"Python.mail.executor\": \"Run\",\r\n    \"Python.modul_2_hard.executor\": \"Run\",\r\n    \"Python.modul_3_3.executor\": \"Run\",\r\n    \"Python.modul_3_4.executor\": \"Run\",\r\n    \"Python.modul_3_5.executor\": \"Run\",\r\n    \"Python.modul_3_hard.executor\": \"Debug\",\r\n    \"Python.practica_po_function.executor\": \"Run\",\r\n    \"Python.Хлам.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"H:/User/aadim/GitHub/python-environment-demo/UrbanProject\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"H:\\User\\aadim\\GitHub\\python-environment-demo\\UrbanProject\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Python.modul_3_hard\">\r\n    <configuration name=\"Хлам\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"UrbanProject\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Хлам.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Calc_Trening\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"UrbanProject\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/Calc_Trening.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"modul_2_hard\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"UrbanProject\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/modul_2_hard.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"modul_3_hard\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"UrbanProject\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/modul_3_hard.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"practica_po_function\" type=\"PythonConfigurationType\" factoryName=\"Python\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"UrbanProject\" />\r\n      <option name=\"ENV_FILES\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"PARENT_ENVS\" value=\"true\" />\r\n      <envs>\r\n        <env name=\"PYTHONUNBUFFERED\" value=\"1\" />\r\n      </envs>\r\n      <option name=\"SDK_HOME\" value=\"\" />\r\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"IS_MODULE_SDK\" value=\"true\" />\r\n      <option name=\"ADD_CONTENT_ROOTS\" value=\"true\" />\r\n      <option name=\"ADD_SOURCE_ROOTS\" value=\"true\" />\r\n      <option name=\"SCRIPT_NAME\" value=\"$PROJECT_DIR$/practica_po_function.py\" />\r\n      <option name=\"PARAMETERS\" value=\"\" />\r\n      <option name=\"SHOW_COMMAND_LINE\" value=\"false\" />\r\n      <option name=\"EMULATE_TERMINAL\" value=\"false\" />\r\n      <option name=\"MODULE_MODE\" value=\"false\" />\r\n      <option name=\"REDIRECT_INPUT\" value=\"false\" />\r\n      <option name=\"INPUT_FILE\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Python.modul_3_hard\" />\r\n        <item itemvalue=\"Python.Хлам\" />\r\n        <item itemvalue=\"Python.Calc_Trening\" />\r\n        <item itemvalue=\"Python.modul_2_hard\" />\r\n        <item itemvalue=\"Python.practica_po_function\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"7ae67ffd-5f5f-4efe-97a5-a63c319e950b\" name=\"Changes\" comment=\"\" />\r\n      <created>1722657790333</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1722657790333</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"modul_3_3.py\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722661342889</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722661342890</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"modul_3_3.py\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722725369063</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722725369063</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"modul_3_3.py&#10;Messenge\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1722862032941</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1722862032942</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"modul_3_3.py&#10;Messenge\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723071714332</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723071714350</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"modul_3_3.py&#10;Messenge\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1723072463390</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1723072463390</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"modul_3_3.py\" />\r\n    <MESSAGE value=\"modul_3_3.py&#10;Messenge\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"modul_3_3.py&#10;Messenge\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>\r\n          <line>115</line>\r\n          <option name=\"timeStamp\" value=\"11\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" suspend=\"THREAD\" type=\"python-line\">\r\n          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>\r\n          <line>84</line>\r\n          <option name=\"timeStamp\" value=\"12\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <watches-manager>\r\n      <configuration name=\"PythonConfigurationType\">\r\n        <watch expression=\"summa\" language=\"Python\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision deb6af7ed99e542c8dd89aced16469363ee603cf)
++++ b/.idea/workspace.xml	(date 1724589443505)
+@@ -4,11 +4,26 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="modul_3_3.py&#10;Messenge">
+-      <change afterPath="$PROJECT_DIR$/modul_3_hard.py" afterDir="false" />
++    <list default="true" id="7ae67ffd-5f5f-4efe-97a5-a63c319e950b" name="Changes" comment="Urban Modul 5">
++      <change afterPath="$PROJECT_DIR$/fake_math.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module3.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module_4/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module_4/sortfunc.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module_4_1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module_4_2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module_5_1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/module_5_2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/modules/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/namespaces.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/package1/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/package1/package2/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/package1/package2/package3/__init__.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/package1/package2/package3/module1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/package1/package2/package3/module2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/true_math.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Calc_Trening.py" beforeDir="false" afterPath="$PROJECT_DIR$/Calc_Trening.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/modul_2_hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul_2_hard.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/modul_3_hard.py" beforeDir="false" afterPath="$PROJECT_DIR$/modul_3_hard.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -26,6 +41,12 @@
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="ROOT_SYNC" value="SYNC" />
+   </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
++  </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 4
+ }</component>
+@@ -40,27 +61,54 @@
+   "keyToString": {
+     "Python.3modul_name_param 2.executor": "Run",
+     "Python.Calc_Trening.executor": "Run",
++    "Python.fake_math.executor": "Run",
+     "Python.mail.executor": "Run",
++    "Python.main.executor": "Run",
++    "Python.modul1 (1).executor": "Run",
++    "Python.modul1.executor": "Run",
++    "Python.modul2 (1).executor": "Run",
++    "Python.modul2.executor": "Run",
+     "Python.modul_2_hard.executor": "Run",
+     "Python.modul_3_3.executor": "Run",
+     "Python.modul_3_4.executor": "Run",
+     "Python.modul_3_5.executor": "Run",
+-    "Python.modul_3_hard.executor": "Debug",
++    "Python.modul_3_hard.executor": "Run",
++    "Python.module1 (1).executor": "Run",
++    "Python.module1.executor": "Run",
++    "Python.module2 (1).executor": "Run",
++    "Python.module2.executor": "Run",
++    "Python.module3.executor": "Run",
++    "Python.module_4_1.executor": "Run",
++    "Python.module_4_2.executor": "Run",
++    "Python.module_5_1.executor": "Run",
++    "Python.namespaces.executor": "Run",
+     "Python.practica_po_function.executor": "Run",
++    "Python.sortfunc.executor": "Debug",
++    "Python.true_math.executor": "Run",
+     "Python.Хлам.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "master",
++    "git-widget-placeholder": "Merging master",
+     "last_opened_file_path": "H:/User/aadim/GitHub/python-environment-demo/UrbanProject"
++  },
++  "keyToStringList": {
++    "ChangesTree.GroupingKeys": [
++      "directory"
++    ]
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject" />
+     </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\package1\package2\package3" />
++      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\package1" />
++      <recent name="H:\User\aadim\GitHub\python-environment-demo\UrbanProject\modules" />
++    </key>
+   </component>
+-  <component name="RunManager" selected="Python.modul_3_hard">
+-    <configuration name="Хлам" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="Python.module_5_1">
++    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="UrbanProject" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -73,7 +121,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Хлам.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -82,7 +130,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="Calc_Trening" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="module_4_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="UrbanProject" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -95,7 +143,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Calc_Trening.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_4_2.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -104,7 +152,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="modul_2_hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="module_5_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="UrbanProject" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -117,7 +165,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_2_hard.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_5_1.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -126,7 +174,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="modul_3_hard" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="namespaces" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="UrbanProject" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -139,7 +187,7 @@
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modul_3_hard.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/namespaces.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -148,7 +196,7 @@
+       <option name="INPUT_FILE" value="" />
+       <method v="2" />
+     </configuration>
+-    <configuration name="practica_po_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++    <configuration name="sortfunc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+       <module name="UrbanProject" />
+       <option name="ENV_FILES" value="" />
+       <option name="INTERPRETER_OPTIONS" value="" />
+@@ -157,11 +205,11 @@
+         <env name="PYTHONUNBUFFERED" value="1" />
+       </envs>
+       <option name="SDK_HOME" value="" />
+-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/module_4" />
+       <option name="IS_MODULE_SDK" value="true" />
+       <option name="ADD_CONTENT_ROOTS" value="true" />
+       <option name="ADD_SOURCE_ROOTS" value="true" />
+-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practica_po_function.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/module_4/sortfunc.py" />
+       <option name="PARAMETERS" value="" />
+       <option name="SHOW_COMMAND_LINE" value="false" />
+       <option name="EMULATE_TERMINAL" value="false" />
+@@ -172,11 +220,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="Python.modul_3_hard" />
+-        <item itemvalue="Python.Хлам" />
+-        <item itemvalue="Python.Calc_Trening" />
+-        <item itemvalue="Python.modul_2_hard" />
+-        <item itemvalue="Python.practica_po_function" />
++        <item itemvalue="Python.module_5_1" />
++        <item itemvalue="Python.sortfunc" />
++        <item itemvalue="Python.module_4_2" />
++        <item itemvalue="Python.namespaces" />
++        <item itemvalue="Python.main" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -236,29 +284,37 @@
+       <option name="project" value="LOCAL" />
+       <updated>1723072463390</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="Urban Modul 3">
++      <option name="closed" value="true" />
++      <created>1723337829579</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1723337829579</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
+   </component>
+   <component name="VcsManagerConfiguration">
++    <option name="CHECK_NEW_TODO" value="false" />
+     <MESSAGE value="modul_3_3.py" />
+     <MESSAGE value="modul_3_3.py&#10;Messenge" />
+-    <option name="LAST_COMMIT_MESSAGE" value="modul_3_3.py&#10;Messenge" />
++    <MESSAGE value="Urban Modul 3" />
++    <MESSAGE value="Urban Modul 5" />
++    <option name="LAST_COMMIT_MESSAGE" value="Urban Modul 5" />
+   </component>
+   <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>
+-          <line>115</line>
+-          <option name="timeStamp" value="11" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+-          <url>file://$PROJECT_DIR$/modul_3_hard.py</url>
+-          <line>84</line>
+-          <option name="timeStamp" value="12" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+     <watches-manager>
+       <configuration name="PythonConfigurationType">
+         <watch expression="summa" language="Python" />
+Index: module_4_2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module_4_2.py b/module_4_2.py
+new file mode 100644
+--- /dev/null	(date 1724372110467)
++++ b/module_4_2.py	(date 1724372110467)
+@@ -0,0 +1,7 @@
++def test_function():
++    def inner_function():
++        print ("Я в области видимости функции test_function")
++    inner_function()
++
++test_function()
++inner_function()
+\ No newline at end of file
+Index: true_math.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/true_math.py b/true_math.py
+new file mode 100644
+--- /dev/null	(date 1723963057507)
++++ b/true_math.py	(date 1723963057507)
+@@ -0,0 +1,7 @@
++import math
++from math import inf
++
++def divide(first, second):
++    if second == 0:
++        return (math.inf)
++    return first/second
+\ No newline at end of file
+Index: module_4/sortfunc.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module_4/sortfunc.py b/module_4/sortfunc.py
+new file mode 100644
+--- /dev/null	(date 1724421741274)
++++ b/module_4/sortfunc.py	(date 1724421741274)
+@@ -0,0 +1,35 @@
++nums = [5,6,2,1,3,4]
++def bubble_sort(ls):
++    swapped = True
++    while swapped:
++        swapped = False
++        for i in range(len(ls)-1):
++            if ls[i] > ls[i+1]:
++                ls[i], ls[i+1] = ls[i+1], ls[i]
++                swapped = True
++
++#------------------------ Основная программа ----------------------------------------
++# bubble_sort(nums)
++# print (nums)
++def selection_sort(ls):
++    for i in range(len(ls)):
++        lowest = i
++        for j in range(i+1,len(ls)):
++            if ls[j]<ls[lowest]:
++                lowest = j
++        ls[i],ls[lowest] = ls[lowest],ls[i]
++
++# selection_sort(nums)
++# print (nums)
++
++def insertion_sort(ls):
++    for i in range(1,len(ls)):
++        key = ls[i]
++        j = i-1
++        while ls[j] > key and j>=0:
++            ls[j+1] = ls[j]
++            j-=1
++        ls[j+1]=key
++    return ls
++
++print(insertion_sort(nums))
+\ No newline at end of file
+Index: module_4_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module_4_1.py b/module_4_1.py
+new file mode 100644
+--- /dev/null	(date 1723963057504)
++++ b/module_4_1.py	(date 1723963057504)
+@@ -0,0 +1,11 @@
++import fake_math as fake
++import true_math as true
++
++result1 = fake.divide (69, 3)
++result2 = fake.divide(3, 0)
++result3 = true.divide(49, 7)
++result4 = true.divide(15, 0)
++print(result1)
++print(result2)
++print(result3)
++print(result4)
+\ No newline at end of file
+Index: module_5_1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module_5_1.py b/module_5_1.py
+new file mode 100644
+--- /dev/null	(date 1724565960369)
++++ b/module_5_1.py	(date 1724565960369)
+@@ -0,0 +1,15 @@
++class House:
++    def __init__(self, name:str, number_of_floors:int):
++        self.name = name
++        self.number_of_floors = number_of_floors
++    def go_to (self, new_floors:int):
++        if new_floors > self.number_of_floors:
++            print ("Такого этажа не существует")
++        else:
++            for i in range(1,new_floors+1):
++                print (i)
++
++h1 = House('ЖК Горский',18)
++h2 = House('Домик в деревне',2)
++h1.go_to(5)
++h2.go_to(10)
+\ No newline at end of file
+Index: fake_math.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/fake_math.py b/fake_math.py
+new file mode 100644
+--- /dev/null	(date 1723963057493)
++++ b/fake_math.py	(date 1723963057493)
+@@ -0,0 +1,4 @@
++def divide(first, second):
++    if second == 0:
++        return ('Ошибка')
++    return first/second
+Index: module_5_2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/module_5_2.py b/module_5_2.py
+new file mode 100644
+--- /dev/null	(date 1724565833258)
++++ b/module_5_2.py	(date 1724565833258)
+@@ -0,0 +1,31 @@
++class House:
++    def __init__(self, name:str, number_of_floors:int):
++        self.name = name
++        self.number_of_floors = number_of_floors
++
++    def __len__(self):
++        return self.number_of_floors
++    def __str__(self):
++        return self.name
++    def go_to (self, new_floors:int):
++        if new_floors > self.number_of_floors:
++            print ("Такого этажа не существует")
++        else:
++            for i in range(1,new_floors+1):
++                print (i)
++
++# h1 = House('ЖК Горский',18)
++# h2 = House('Домик в деревне',2)
++# h1.go_to(5)
++# h2.go_to(10)
++
++h1 = House('ЖК Эльбрус', 10)
++h2 = House('ЖК Акация', 20)
++
++# __str__
++print(f'Название: {h1.__str__()}, кол-во этажей: {h1.__len__()}.')
++print(f'Название: {h2.__str__()}, кол-во этажей: {h2.__len__()}.')
++
++# __len__
++print(len(h1))
++print(len(h2))
+\ No newline at end of file
+Index: package1/package2/package3/module1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package1/package2/package3/module1.py b/package1/package2/package3/module1.py
+new file mode 100644
+--- /dev/null	(date 1724062185600)
++++ b/package1/package2/package3/module1.py	(date 1724062185600)
+@@ -0,0 +1,11 @@
++'''from package1.module2 import *
++# say_hi as sh
++say_hi()
++# from module2 import main
++main()
++b = 10'''
++def hello (name):
++    print ("Привет", name)
++
++
++
+Index: package1/package2/package3/module2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package1/package2/package3/module2.py b/package1/package2/package3/module2.py
+new file mode 100644
+--- /dev/null	(date 1724167305492)
++++ b/package1/package2/package3/module2.py	(date 1724167305492)
+@@ -0,0 +1,24 @@
++from .module1 import hello
++from dis import dis
++
++def say_hi():
++    print ("Я из функции во втором модуле")
++
++def main():
++    a = 5
++    b = 10
++    print("Привет")
++
++def some_func():
++    a = "Я из второго модуля"
++    print("Я из второго модуля")
++    return a
++
++# dis(some_func)
++# print ("Вызов модуля 2 в модуль 3")
++def good_word(name):
++    hello(name)
++    print ('Ты лучший', name)
++
++if __name__ =='__main__':
++    good_word('Урбан')
+\ No newline at end of file
+diff --git a/package1/__init__.py b/package1/__init__.py
+new file mode 100644
+diff --git a/package1/package2/__init__.py b/package1/package2/__init__.py
+new file mode 100644
+diff --git a/package1/package2/package3/__init__.py b/package1/package2/package3/__init__.py
+new file mode 100644
+diff --git a/module_4/__init__.py b/module_4/__init__.py
+new file mode 100644
